@@ -1,19 +1,19 @@
 # HTTPUtils
 ![projectstage](https://img.shields.io/badge/project%20stage-alpha-yellow)
 ![projectstage](https://img.shields.io/badge/version-1.0-yellow)
-[![license](https://img.shields.io/github/license/PentagonLP/httputils)](https://github.com/PentagonLP/httputils/blob/main/LICENSE)
-[![issues](https://img.shields.io/github/issues/PentagonLP/httputils)](https://github.com/PentagonLP/httputils/issues)<br>
-[![contributors](https://img.shields.io/github/contributors/PentagonLP/httputils)](https://github.com/PentagonLP/httputils/graphs/contributors)
-[![activity](https://img.shields.io/github/commit-activity/m/PentagonLP/httputils)](https://github.com/PentagonLP/httputils/commits/main)
-[![lastcommit](https://img.shields.io/github/last-commit/PentagonLP/httputils)](https://github.com/PentagonLP/httputils/commits/main)<br>
-![size](https://img.shields.io/github/languages/code-size/PentagonLP/httputils)
-![files](https://img.shields.io/github/directory-file-count/PentagonLP/httputils)
-![languages](https://img.shields.io/github/languages/count/PentagonLP/httputils)<br>
+[![license](https://img.shields.io/github/license/computercraft-package-tool/httputils)](https://github.com/computercraft-package-tool/httputils/blob/main/LICENSE)
+[![issues](https://img.shields.io/github/issues/computercraft-package-tool/httputils)](https://github.com/computercraft-package-tool/httputils/issues)<br>
+[![contributors](https://img.shields.io/github/contributors/computercraft-package-tool/httputils)](https://github.com/computercraft-package-tool/httputils/graphs/contributors)
+[![activity](https://img.shields.io/github/commit-activity/m/computercraft-package-tool/httputils)](https://github.com/computercraft-package-tool/httputils/commits/main)
+[![lastcommit](https://img.shields.io/github/last-commit/computercraft-package-tool/httputils)](https://github.com/computercraft-package-tool/httputils/commits/main)<br>
+![size](https://img.shields.io/github/languages/code-size/computercraft-package-tool/httputils)
+![files](https://img.shields.io/github/directory-file-count/computercraft-package-tool/httputils)
+![languages](https://img.shields.io/github/languages/count/computercraft-package-tool/httputils)<br>
 
 Library for the Minecraft mod **ComputerCraft/CC: Tweaked** including some additional HTTP Methodes  
 
 ## How to install 
-HTTPUtils can be installed using the [ComputerCraft Package Tool](https://github.com/PentagonLP/ccpt) by using the following commands:
+HTTPUtils can be installed using the [ComputerCraft Package Tool](https://github.com/computercraft-package-tool/ccpt) by using the following commands:
 
 Install CCPT, only run if you havn't installed it yet:
 ```
@@ -27,7 +27,7 @@ The library will now be stored in "/lib/httputils". It depends on "fileutils", w
 
 ## How to use
 
-https://github.com/PentagonLP/httputils/blob/main/testing/testdata will be used in all examples:  
+https://github.com/computercraft-package-tool/httputils/blob/main/testing/testdata will be used in all examples:  
 ```lua
 {
 	greeting = "'ello"
@@ -42,7 +42,7 @@ The function **gethttpdata([url])** returns the parsed table fetched from the gi
 Example code and output:
 <br><img
     alt="missing image :("
-    src="https://raw.githubusercontent.com/PentagonLP/httputils/main/img/getdata.png"
+    src="https://raw.githubusercontent.com/computercraft-package-tool/httputils/main/img/getdata.png"
 /><br>  
 
 ### **2. Download file from URL**  
@@ -53,7 +53,7 @@ The function **downloadfile([filepath],[url])** downloads a file from the given 
 Example code and output:
 <br><img
     alt="missing image :("
-    src="https://raw.githubusercontent.com/PentagonLP/httputils/main/img/downloadfile.png"
+    src="https://raw.githubusercontent.com/computercraft-package-tool/httputils/main/img/downloadfile.png"
 /><br>  
 
 Content of *"test"*:
@@ -71,7 +71,7 @@ The function **gethttpresult([url])** returns the raw result fetched from the gi
 Example code and output:
 <br><img
     alt="missing image :("
-    src="https://raw.githubusercontent.com/PentagonLP/httputils/main/img/getresult.png"
+    src="https://raw.githubusercontent.com/computercraft-package-tool/httputils/main/img/getresult.png"
 /><br>  
 
 ## Changelog
