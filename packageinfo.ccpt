@@ -2,10 +2,10 @@
 	name = "HttpUtils",
 	comment = "Library to recieve data and files via http(s)",
 	author = "CCPT",
-	website = "https://github.com/computercraft-package-tool/httputils</",
+	website = "https://github.com/computercraft-package-tool/httputils/",
 	newestversion = "1.0",
 	install = {
-		url = "https://raw.githubusercontent.com/computercraft-package-tool/httputils/main/httputils.lua",
+		url = "https://github.com/computercraft-package-tool/httputils/releases/download/v1.0/httputils.lua",
 		filename = "httputils",
 		type = "library",
 	},
