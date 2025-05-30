@@ -6,7 +6,7 @@
 	newestversion = "1.1",
 	install = {
 		url = "https://github.com/computercraft-package-tool/httputils/releases/download/v1.1/httputils.lua",
-		filename = "httputils",
+		filename = "httputils.lua",
 		type = "library",
 	},
 	dependencies = {
